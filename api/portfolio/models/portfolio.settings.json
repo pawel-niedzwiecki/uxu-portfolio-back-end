@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProjectName": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "collection": "tags"
+    },
+    "PortfolioURL": {
+      "type": "string",
+      "required": true
+    },
+    "PortfolioGitHub": {
+      "type": "string"
+    }
+  }
+}

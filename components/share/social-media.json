@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_share_social_medias",
+  "info": {
+    "name": "SocialMedia",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "typ": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "GitHub",
+        "Instagram"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "data_contacts",
+  "info": {
+    "name": "Data contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "CompanyStreet": {
+      "type": "string"
+    },
+    "CompanyPostCode": {
+      "type": "string"
+    },
+    "CompanyCity": {
+      "type": "string"
+    },
+    "CompanyCountry": {
+      "type": "string"
+    },
+    "CompanyVatID": {
+      "type": "string"
+    },
+    "CompanyRegon": {
+      "type": "string"
+    },
+    "CompanyKrs": {
+      "type": "string"
+    },
+    "CompanyEmail": {
+      "type": "email"
+    },
+    "CompanyPhone": {
+      "type": "string"
+    },
+    "ListSocialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.social-media"
+    }
+  }
+}
